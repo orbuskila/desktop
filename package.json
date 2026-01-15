@@ -86,7 +86,7 @@
     "parse-dds": "^1.2.1",
     "prettier": "^2.6.0",
     "rimraf": "^6.0.1",
-    "sass": "^1.27.0",
+    "sass": "^1.97.1",
     "sass-loader": "^16.0.0",
     "semver": "^7.6.3",
     "style-loader": "^3.3.1",
