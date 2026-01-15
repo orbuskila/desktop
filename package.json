@@ -53,7 +53,7 @@
     "@types/react-css-transition-replace/@types/react": "^16.14.62"
   },
   "dependencies": {
-    "@azure/storage-blob": "^12.25.0",
+    "@azure/storage-blob": "^12.29.1",
     "@babel/core": "^7.25.2",
     "@babel/plugin-transform-modules-commonjs": "^7.24.8",
     "@primer/octicons": "^19.0.0",
