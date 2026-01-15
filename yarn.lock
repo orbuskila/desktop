@@ -1441,6 +1441,11 @@
   resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-6.13.2.tgz#c044aac24c2f6cefb8e921e397acad5417dd0ae6"
   integrity sha512-7sxbQ+EMRubQc3wTfTsycgYpSujyVbI1xw+3UMRUcrhSy+pN09y/lWzeKDbvhoqcRbHdc+APLs/PWYi/cisLPg==
 
+"@typescript-eslint/types@6.21.0":
+  version "6.21.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-6.21.0.tgz#205724c5123a8fef7ecd195075fa6e85bac3436d"
+  integrity sha512-1kFmZ1rOm5epu9NZEZm1kckCDGj5UJEf7P1kliH4LKu/RkwpsfqqGmY2OOcUs18lSlQBKLDYBOGxRVtrMN5lpg==
+
 "@typescript-eslint/types@8.21.0":
   version "8.21.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-8.21.0.tgz#58f30aec8db8212fd886835dc5969cdf47cb29f5"
@@ -1459,7 +1464,7 @@
     semver "^7.3.7"
     tsutils "^3.21.0"
 
-"@typescript-eslint/typescript-estree@6.13.2", "@typescript-eslint/typescript-estree@^6.13.2":
+"@typescript-eslint/typescript-estree@6.13.2":
   version "6.13.2"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-6.13.2.tgz#ae556ee154c1acf025b48d37c3ef95a1d55da258"
   integrity sha512-SuD8YLQv6WHnOEtKv8D6HZUzOub855cfPnPMKvdM/Bh1plv1f7Q/0iFUDLKKlxHcEstQnaUU4QZskgQq74t+3w==
@@ -1485,6 +1490,20 @@
     minimatch "^9.0.4"
     semver "^7.6.0"
     ts-api-utils "^2.0.0"
+
+"@typescript-eslint/typescript-estree@^6.21.0":
+  version "6.21.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-6.21.0.tgz#c47ae7901db3b8bddc3ecd73daff2d0895688c46"
+  integrity sha512-6npJTkZcO+y2/kr+z0hc4HwNfrrP4kNYh57ek7yCNlrBjWQ1Y0OS7jiZTkgumrvkX5HkEKXFZkkdFNkaW2wmUQ==
+  dependencies:
+    "@typescript-eslint/types" "6.21.0"
+    "@typescript-eslint/visitor-keys" "6.21.0"
+    debug "^4.3.4"
+    globby "^11.1.0"
+    is-glob "^4.0.3"
+    minimatch "9.0.3"
+    semver "^7.5.4"
+    ts-api-utils "^1.0.1"
 
 "@typescript-eslint/utils@5.62.0":
   version "5.62.0"
@@ -1537,6 +1556,14 @@
   integrity sha512-OGznFs0eAQXJsp+xSd6k/O1UbFi/K/L7WjqeRoFE7vadjAF9y0uppXhYNQNEqygjou782maGClOoZwPqF0Drlw==
   dependencies:
     "@typescript-eslint/types" "6.13.2"
+    eslint-visitor-keys "^3.4.1"
+
+"@typescript-eslint/visitor-keys@6.21.0":
+  version "6.21.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/visitor-keys/-/visitor-keys-6.21.0.tgz#87a99d077aa507e20e238b11d56cc26ade45fe47"
+  integrity sha512-JJtkDduxLi9bivAB+cYOVMtbkqdPOhZ+ZI5LC47MIRrDV4Yn2o+ZnW10Nkmr28xRpSpdJ6Sm42Hjf2+REYXm0A==
+  dependencies:
+    "@typescript-eslint/types" "6.21.0"
     eslint-visitor-keys "^3.4.1"
 
 "@typescript-eslint/visitor-keys@8.21.0":
@@ -5075,6 +5102,13 @@ mini-css-extract-plugin@^2.9.1:
   dependencies:
     schema-utils "^4.0.0"
     tapable "^2.2.1"
+
+minimatch@9.0.3:
+  version "9.0.3"
+  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-9.0.3.tgz#a6e00c3de44c3a542bfaae70abfc22420a6da825"
+  integrity sha512-RHiac9mvaRw0x3AYRgDC1CxAP7HTcNrrECeA8YYJeWnpo+2Q5CegtZjaotWTWxDG3UeGA1coE05iH1mPjT/2mg==
+  dependencies:
+    brace-expansion "^2.0.1"
 
 minimatch@^10.0.0:
   version "10.0.1"
